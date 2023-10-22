@@ -7,7 +7,7 @@ export default function LandingPage() {
     const [data, setData] = useState(null);
     const [isLoaded, setisLoaded] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const [query, setQuery] = useState("one piece");
+    const [query, setQuery] = useState("demon slayers");
     // Modal
     const [modalShow, setModalShow] = useState(false);
     const [modalItem, setModalItem] = useState(null);
